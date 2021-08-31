@@ -1,0 +1,116 @@
+* {
+    margin: 10em;
+    padding: 10em;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #dcdcdc
+}
+
+.ace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    border: 10px solid transparent;
+    border-color: #000000 #a3a3a3 #ffffff #800080;
+    border-radius: 40%;
+    animation: ace 9s cubic-bezier(0.35, -0.14, 0.79, 1.22) infinite;
+}
+
+.bi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    border: 10px solid transparent;
+    border-color: #d00070 #8c4799 #0032a0 transparent;
+    border-radius: 80%;
+    animation: bi 8s cubic-bezier(0.35, -0.14, 0.79, 1.22) infinite;
+  }
+
+.enby {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 10px solid transparent;
+    border-color: #ffff00 #ffffff #4b0082 #000000;
+    border-radius: 25%;
+    animation: enby 10s cubic-bezier(0.40, -0.19, 0.83, 1.05) infinite;
+}
+
+.pan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    border: 10px solid transparent;
+    border-color: #ffda00 #1bb3ff #ffda00 #ff1b8d;
+    border-radius: 100%;
+    animation: pan 4s cubic-bezier(0.35, -0.14, 0.79, 1.22) infinite;
+}
+
+.pride {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border: 2px linear-gradient(90deg, #ff6599 0%, #ff0000 8.3%, #ff8e00 16.6%, #ffff00 24.9%, #008e00 33.3%, #00c0c0 41.6%, #400098 49.9%, #8e008e 58.3%, #cd66ff 66.6%, #ffafc8 74.9%, #74d7ee 83.3%, #613915 91.6%, #000000 95%, #ffffff 100%);
+    background: linear-gradient(90deg, #ff6599 0%, #ff0000 8.3%, #ff8e00 16.6%, #ffff00 24.9%, #008e00 33.3%, #00c0c0 41.6%, #400098 49.9%, #8e008e 58.3%, #cd66ff 66.6%, #ffafc8 74.9%, #74d7ee 83.3%, #613915 91.6%, #000000 95%, #ffffff 100%);
+    border-radius: 50%;
+    animation: pride 3s cubic-bezier(0.35, -0.14, 0.79, 1.22) infinite;
+}
+
+.trans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 10px solid #ffffff;
+    background: linear-gradient(90deg, #55cdfc 0%, #ffffff 50%, #f7a8b8 100%);
+    border-radius: 50%;
+    animation: trans 6s cubic-bezier(0.35, -0.14, 0.79, 1.22) infinite;
+  }
+
+@keyframes ace {
+    100% {
+        transform: rotateZ(-2turn);
+    }
+}
+
+@keyframes bi {
+    100% {
+        transform: rotateZ(1turn);
+    }
+}
+
+@keyframes enby {
+    100% {
+        transform: rotateZ(1turn);
+    }
+}
+
+@keyframes pan {
+    100% {
+        transform: rotateZ(-1turn);
+    }
+}
+
+@keyframes pride {
+    100% {
+        transform: rotateZ(-1turn);
+    }
+}
+
+@keyframes trans {
+    100% {
+        transform: rotateZ(1turn);
+    }
+}
